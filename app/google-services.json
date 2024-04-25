@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "333412114720",
+    "project_id": "onetapcollege-60f8f",
+    "storage_bucket": "onetapcollege-60f8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333412114720:android:281e60e39e05c1abd5b745",
+        "android_client_info": {
+          "package_name": "com.kalyan.onetapcollege"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2xTq6mCJeOhdHlYSNdsob7SG2M-tfVr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

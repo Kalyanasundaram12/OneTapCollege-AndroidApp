@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">OneTapCollege</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="block_options">
+        <item>AB1</item>
+        <item>AB2</item>
+        <item>AB3</item>
+        <item>C</item>
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+
+    <string-array name="type_options">
+        <item>Electric</item>
+        <item>Plumber</item>
+        <item>Carpenter</item>
+        <item>House-keeping</item>
+        <item>Others</item>
+    </string-array>
+
+</resources>

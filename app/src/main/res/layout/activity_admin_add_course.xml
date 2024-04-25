@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#FFFDD0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddCourseActivity">
+
+    <EditText
+        android:background="@drawable/rounded_background"
+        android:padding="10dp"
+        android:id="@+id/editTextCourseCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course Code"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_background"
+        android:padding="10dp"
+        android:hint="Course Name"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/editTextCourseCode"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextCourseCredits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course Credits"
+        android:inputType="number"
+        android:background="@drawable/rounded_background"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/editTextCourseName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextSeats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seats"
+        android:inputType="number"
+        android:background="@drawable/rounded_background"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/editTextCourseCredits"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextSlot1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_background"
+        android:padding="10dp"
+        android:hint="Slot 1"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/editTextSeats"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextSlot2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Slot 2"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/editTextSlot1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/rounded_background"
+        android:padding="10dp"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Course"
+        app:layout_constraintTop_toBottomOf="@id/editTextSlot2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
